@@ -117,14 +117,13 @@
 
  <form>
   <div class="row">
-    <div class="col-md-12 mb-12">
-   <label for="category"><b>Group</b></label>
-      <select class='form-control' required>
-		<option value="daily">daily</option>
-		<option value="weekly">weekly</option>
-		<option value="monthly">monthly</option>
-		<option value="yearly">yearly</option>
-     </select>
+    <div class="col-md-6 mb-6">
+   <label for="category"><b>from</b></label>
+      <input type="date" class="form-control is-valid" id="validationServer01"  required>
+  </div>
+    <div class="col-md-6 mb-6">
+   <label for="category"><b>to</b></label>
+     <input type="date" class="form-control is-valid" id="validationServer01"  required>
   </div>
    </div>
 <br>
@@ -133,20 +132,20 @@
  <div class="container">
       <div class="row">
 
-    <h5> Daily </h5>
+    <h5> Monthly </h5>
 		
 <table class="table table-striped">
   <tbody>
     <tr>
-      <th scope="row">Tue March 20<br>Description</td>
-      <td>Eating Out<br> <b>Cleared</b></td>
+      <th scope="row">From:  March 20 2018<br> To: April 20,2018<br>Description</td>
+      <td>Eating Out<br><br> <b>Cleared</b></td>
 	<td>Php 1,000</td>
     </tr>
 </tbody>
 <tbody>
     <tr>
-      <th scope="row">Fri March 16 <br>Description</td>
-      <td>Bills<br> <b>Cleared</b></td>
+      <th scope="row">From: March 16, 2018 <br> To: April 16,2018<br>Description</td>
+      <td>Bills<br><br> <b>Cleared</b></td>
 	<td>Php 85.00</td>
     </tr>
   </tbody>
